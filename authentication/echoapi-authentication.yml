@@ -1,0 +1,17 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.echoapi.com/wiki/docs/oauth2
+sources:
+- https://www.echoapi.com/wiki/docs/oauth2
+description: Authentication methods as published on the page.
+schemes:
+- type: oauth2
+  name: OAuth 2.0
+  evidence: EchoAPI supports OAuth 2.0 authentication starting from version 2.0.13.
+  flows:
+  - authorization_code
+  authorize_url: https://github.com/login/oauth/authorize
+  how_to_obtain: Create a GitHub OAuth Application, obtain the Client ID and Client Secret, then use EchoAPI's Get Token button to retrieve an
+    access token.
+docs: https://www.echoapi.com/wiki/docs/oauth2

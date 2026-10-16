@@ -1,0 +1,20 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.echoapi.com/wiki/docs/introduction#postman
+sources:
+- https://www.echoapi.com/wiki/docs/introduction#postman
+- https://www.echoapi.com/wiki/docs/clitool/
+- https://www.echoapi.com/wiki/docs/introduction
+install:
+- method: npm
+  command: npm install -g echoapi-cli
+commands:
+- group: run
+  commands:
+  - echoapi run "https://app.echoapi.com/open/ci/automated_testing?ci_id=MTkzMDI0MTEwMDU2ODQ5NDA4OjEyOTMzMDc1MDgzNjc3NzEwOjEzMDcyNjE0MDg3OTQ2Mjcy\u0026token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxODE0NCwiaXNzIjoiYXBpcG9zdCIsImV4cCI6MTcxNzY5MDAxNX0.wNNw0MbsbobhDcAZmiXJQu6lmhWaES6E2y8YFyKkzm8"
+    -n 5 -r cli,json
+  purpose: execute EchoAPI interface cases and test cases
+binary: echoapi
+note: 'Upgrade command: npm install echoapi-cli@latest -g'
+docs: https://www.echoapi.com/wiki/docs/introduction#postman

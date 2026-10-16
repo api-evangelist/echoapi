@@ -1,0 +1,72 @@
+openapi: 3.1.0
+info:
+  title: EchoAPI API
+  version: '2026-10-16'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-16: 2 operation(s) read from 3 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; EchoAPI has published no machine-readable contract that the pipeline
+    could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 2
+    documentation: 0
+    pages-with-code: 3
+    pages-read: 3
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-16'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://www.echoapi.com/wiki/docs/start
+  - https://www.echoapi.com/wiki/docs/vscode/import
+  - https://www.echoapi.com/wiki/docs/project_set/import_project/manual_trigger
+servers:
+- url: https://httpbin.org
+paths:
+  /anything:
+    get:
+      operationId: get_anything
+      tags:
+      - Anything
+      summary: GET /anything
+      x-source: https://www.echoapi.com/wiki/docs/start
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: 'curl
+
+          curl -X GET "https://httpbin.org/anything" -H "accept: application/json"
+
+          Enter the EchoAPI Client, and create a new request using cURL.
+
+          Paste the cURL and click import
+
+          After importing, you can also modify the parameters
+
+          Click Send, and the response data will appear in the lower pane.
+
+          2. Click to share the document​
+
+          Save the request, then click share
+
+          Copy and open the document address to view '
+    post:
+      operationId: post_anything
+      tags:
+      - Anything
+      summary: POST /anything
+      x-source: https://www.echoapi.com/wiki/docs/project_set/import_project/manual_trigger
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -X POST \"https://httpbin.org/anything\" -H \"accept: application/json\"\nSelect cURL from the menu on the left to create\
+          \ a new request.\nInsomnia​\nsetp 1 Export data from Insomnia.\nsetp 2 Select Insomnia v4(JSON) \nsetp 3 Import into EchoAPI.\nPrevious\n\
+          Error Code\nNext\nExport Project\nPostman\nSwagger"
+tags:
+- name: Anything

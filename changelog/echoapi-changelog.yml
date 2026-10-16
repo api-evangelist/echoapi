@@ -1,0 +1,63 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.echoapi.com/wiki/docs/changelog#
+sources:
+- https://www.echoapi.com/wiki/docs/changelog#
+- https://www.echoapi.com/wiki/docs/changelog
+- https://www.echoapi.com/wiki/docs/changelog#217-changelog
+- https://www.echoapi.com/wiki/docs/changelog#216-changelog
+entries:
+- breaking: false
+  highlights:
+  - 'Automated Testing: Added support for New HTTP Request and Import cURL steps.'
+  - 'Automated Testing: Failed assertions now display detailed JSON Path information.'
+  - 'IF & Loop Control: Added support for multi-condition combinations (AND / OR).'
+  - 'Import: Added support for importing EchoAPI test cases and test scenarios.'
+  date: '2026-06-05'
+- breaking: false
+  highlights:
+  - 'Admin Panel: The Recycle Bin now allows sorting items by deletion time in ascending or descending order.'
+  date: '2025-10-31'
+- breaking: false
+  highlights:
+  - Improved data loading when switching environments with many interfaces.
+  - Fixed “undefined” results when interfaces were missing in automated tests.
+  - Fixed “undefined” details in exported test reports.
+  date: '2025-10-24'
+- breaking: false
+  highlights:
+  - 'Cookie Manager: Resolved an issue where re-adding a domain after deleting it incorrectly showed the domain as invalid.'
+  - 'Browser Compatibility: Fixed the issue where the invite link copy function was not working in Safari browser.'
+  date: '2025-10-11'
+- breaking: false
+  highlights:
+  - 'Team Collaboration: You can now manage team roles and permissions, so admins can customize roles and assign detailed access controls.'
+  date: '2025-09-16'
+- breaking: false
+  highlights:
+  - 'Introducing the all - new Plus Plan: Empower your journey, further together. (🎁 Exclusive Offer, Legacy User Discount: All existing users
+    get 20% OFF on yearly plans!)'
+  date: '2025-08-21'
+- breaking: false
+  highlights:
+  - Added Clone functionality for Test Steps/Test Scenarios in Automation Testing.
+  - Added Support for converting duplicate APIs into test cases during Postman import.
+  date: '2025-08-18'
+- breaking: false
+  highlights:
+  - New Iteration Branches.
+  date: '2025-08-08'
+- breaking: false
+  highlights:
+  - 'Schema to Code Generation: Instantly generate business code from your schemas.'
+  - 'Enhanced HTTP Metrics: Added detailed response time, size, and network proxy data in the Response section.'
+  date: '2025-07-17'
+- breaking: false
+  highlights:
+  - 'AI-Powered Smart Search: Supports semantic recognition and fuzzy matching to accurately find interface data.'
+  - 'AI-Generated Test Data: Automatically generates test data based on described requirements, eliminating manual creation.'
+  date: '2025-07-07'
+current_version: 2.1.7
+note: Versioning scheme follows major.minor.patch format.
+docs: https://www.echoapi.com/wiki/docs/changelog#

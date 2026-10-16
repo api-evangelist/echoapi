@@ -1,0 +1,40 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.echoapi.com/price
+sources:
+- https://www.echoapi.com/price
+- https://www.echoapi.com/wiki/docs/price
+name: EchoAPI pricing
+audience: developer-api
+pricing_basis: per-seat
+plans:
+- name: Free SaaS Edition
+  price_text: $0
+  price: 0
+  description: Free forever, commercial use supported, cloud‑hosted
+- name: Plus
+  price_text: $9 /per user/month
+  price: 9
+  description: Suitable for growing teams, includes all Free features plus 1500 AI points per day per team, unlimited iteration branches, MCP
+    Skills, recycle bin restoration, 180‑day API change history
+- name: Enterprise
+  price_text: Contact us
+  description: Mid‑size to large businesses, includes all Plus features plus unlimited AI points, unlimited members, SSO (SAML), 24/7 priority
+    support, 365‑day API change/test change history
+- name: Private Deployment
+  price_text: Contact us
+  description: On‑premise deployment with full data ownership, 100% feature parity with SaaS edition, 7‑day free trial
+- name: Basic Package
+  price_text: $9.9 / month
+  price: 9.9
+  description: 200 AI credits per month, one‑time payment, no auto‑renewal, auto‑resets on purchase date
+- name: Premium Package
+  price_text: $21 / month
+  price: 21
+  description: 500 AI credits per month, one‑time payment, no auto‑renewal, auto‑resets on purchase date
+- name: Advanced Package
+  price_text: $36.5 /One-Time Purchase
+  price: 36.5
+  description: 100 AI credits (one‑time), unlimited usage period, one‑time purchase
+docs: https://www.echoapi.com/price
