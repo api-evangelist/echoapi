@@ -82,22 +82,21 @@ common:
 
 apis:
 - name: EchoAPI Platform
-  description: Unified API platform offering REST and GraphQL endpoints with authentication and rate limiting.
+  description: >-
+    Unified API platform offering REST and GraphQL endpoints with authentication and rate limiting.
   humanURL: https://www.echoapi.com/wiki/docs/
   baseURL: null
   aid: echoapi:echoapi-platform
-- aid: echoapi:echoapi-api
-  name: EchoAPI API
-  description: 'EchoAPI API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-16); not
-
-    the provider''s own document.'
-  humanURL: https://www.echoapi.com/wiki/docs/start
+- aid: echoapi:echoapi-anything-api
+  name: EchoAPI Anything API
+  description: The Anything API from EchoAPI — 1 operation(s) for anything.
+  humanURL: https://www.echoapi.com/wiki/docs/
   baseURL: https://httpbin.org
+  tags:
+  - Anything
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/echoapi-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/echoapi-anything-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
