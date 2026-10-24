@@ -38,3 +38,53 @@ plans:
   price: 36.5
   description: 100 AI credits (one‑time), unlimited usage period, one‑time purchase
 docs: https://www.echoapi.com/price
+x-canonical:
+  generated: '2026-10-23'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free SaaS Edition
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Plus
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Private Deployment
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Basic Package
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Premium Package
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Advanced Package
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
